@@ -1,0 +1,46 @@
+
+// Import our variable overrides.
+// Go here to set custom values for Bootstrap vars
+@import "./abstracts/variables";
+
+// Import Bootstrap functions, vars and mixins
+// @import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/variables-dark';
+
+
+
+// Import our map amends
+// Go here to run any Sass map amends on Bootstrap Sass maps
+@import "./abstracts/map-amends";
+
+
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+
+// Import our utility overrides
+// Go here to amend or set custom utilities using the Bootstrap API
+// @import './utilities/bootstrap-api-utilities';
+
+// Bootstrap main import
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Noto+Sans:ital,wdth,wght@0,75,100..900;1,75,100..900&display=swap');
+:root {
+  --bs-body-font-family: "Noto Sans", sans-serif;
+}
+
+// @font-face {
+//   font-family: "Inter";
+//   src: url("../../assets/fonts/Inter-Black-.ttf") format("TrueType"),
+//     url("../../assets/fonts/Inter-Bold.ttf") format("TrueType"),
+//     url("../../assets/fonts/Inter-ExtraBold.ttf") format("TrueType"),
+//     url("../../assets/fonts/Inter-ExtraLight.ttf") format("TrueType"),
+//     url("../../assets/fonts/Inter-Light.ttf") format("TrueType"),
+//     url("../../assets/fonts/Inter-Medium.ttf") format("TrueType"),
+//     url("../../assets/fonts/Inter-Regular.ttf") format("TrueType"),
+//     url("../../assets/fonts/Inter-SemiBold.ttf") format("TrueType"),
+//     url("../../assets/fonts/Inter-Thin.ttf") format("TrueType");
+// }

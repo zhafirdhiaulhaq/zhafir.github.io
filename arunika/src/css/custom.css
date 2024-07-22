@@ -1,0 +1,284 @@
+/* text foundation */
+
+html {
+  scroll-behavior: smooth;
+}
+/* Default Lg */
+.text-arunika-headline,
+.text-arunika-subtitle,
+.text-arunika-body-1,
+.text-arunika-body-2,
+.text-arunika-footer-headline,
+.text-arunika-footer-subtitle-1,
+.text-arunika-footer-subtitle-2,
+.text-arunika-card-headline,
+.text-arunika-card-subtitle
+{
+  margin-bottom: 0;
+  letter-spacing: 0.25px;
+}
+
+.text-arunika-headline,
+.text-arunika-subtitle,
+.text-arunika-footer-headline,
+.text-arunika-footer-subtitle-1,
+.text-arunika-footer-subtitle-2,
+.text-arunika-card-headline,
+.text-arunika-card-subtitle,
+.font-bakbak
+{
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-arunika-headline {
+  font-size: 48px;
+  line-height: 140%; 
+}
+
+.text-arunika-subtitle {
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.text-arunika-body-1 {
+  font-size: 18px;
+  line-height: 157%;
+}
+
+.text-arunika-body-2 {
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.text-arunika-footer-headline {
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.text-arunika-footer-subtitle-1 {
+  font-size: 18px;
+  line-height: 145%;
+}
+
+.text-arunika-footer-subtitle-2 {
+  font-size: 16px;
+  line-height: 145%;
+}
+
+.text-arunika-card-headline {
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.text-arunika-card-subtitle {
+  font-size: 10px;
+  line-height: 140%;
+}
+
+/* Breakpoint - sm */
+@media (max-width: 576px) {
+  .text-arunika-headline {
+    font-size: 24px;
+  }
+  
+  .text-arunika-subtitle {
+    font-size: 16px;
+  }
+  
+  .text-arunika-body-1 {
+    font-size: 16px;
+  }
+  .text-arunika-body-2 {
+    font-size: 14px;
+  }
+  .text-arunika-footer-headline {
+    font-size: 20px;
+  }
+  .text-arunika-footer-subtitle-1 {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .text-arunika-footer-subtitle-2 {
+    font-size: 10px;
+    line-height: 120%;
+  }
+  .text-arunika-card-headline {
+    font-size: 18px;
+  } 
+}
+
+/* Navbar */
+
+a.nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: #F68121 !important;
+}
+
+.navbar {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.16);
+}
+
+/* section - about */
+.arunika-label{
+  background-color: #ECF2F5;
+  position: relative;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.arunika-label:before{
+  content: "";
+  border-left: 14px solid #F68121;
+  height: 100%;
+  position: absolute;
+}
+
+.arunika-label .wrapper{
+  padding: 6px 32px;
+  color: #101828;
+}
+
+/* section logo */
+.arunika-logo-exp{
+  width: 120px;
+}
+
+.vertical-line {
+  border-left: 2px dashed #D0D5DD;
+}
+
+@media (max-width: 768px) {
+  .arunika-logo-exp{
+    width: 72px;
+  }
+}
+
+/* section product */
+.product-image-wrapper {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.arunika-overlay{
+  display: block;
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+}
+
+.product-name{
+  position: absolute;
+  bottom: 0;
+  padding: 32px 24px;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .product-name{
+    padding: 16px;
+  }
+}
+
+/* swiper */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  /* height: 100%; */
+  /* height: 370px; */
+  height: 830px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  /* height: calc((100% - 30px) / 2) !important; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.swiper-slide .video-gallery{
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background: #000;
+  opacity: 0.6;
+}
+
+.swiper-slide button {
+  position: absolute;
+  top:calc(50% - 50px);
+  left:calc(50% - 50px);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .swiper {
+    height: 430px;
+  }
+}
+
+    /* 
+    v1. atur height .swiper tiap breakpoint 
+    v2. atur size svg button play tiap brakpoint
+    v3. atur posisi button play tiap brakpoint
+    4. atur on/off video ketika close modal
+    */
+/* .watermarked {
+  position: relative;
+}
+
+.watermarked:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("http://placehold.it/100x100/09f/fff.png");
+  background-size: 100px 100px;
+  background-position: 30px 30px;
+  background-repeat: no-repeat;
+  opacity: 1;
+} */
+
+
+/* section contact */
+
