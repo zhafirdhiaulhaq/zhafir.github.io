@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.text-heading-1,
+.text-heading-2,
+.text-heading-3,
+.text-heading-4,
+.text-heading-5 {
+  font-family: "RoxBoroughBold";
+}
+
+.text-heading-1 {
+  font-size: 54px;
+  line-height: 135%;
+  line-spacing: 0.45px;
+}
+
+.text-heading-italic-1 {
+  font-family: "RoxBoroughBoldItalic";
+  font-size: 54px;
+  line-height: 135%;
+  line-spacing: 0.45px;
+}
+
+.text-heading-2 {
+  font-size: 36px;
+  line-height: 160%;
+  line-spacing: 0.25px;
+}
+
+.text-heading-3 {
+  font-size: 32px;
+  line-height: 160%;
+  line-spacing: 0;
+}
+
+.text-heading-4 {
+  font-size: 24px;
+  line-height: 160%;
+  line-spacing: 0;
+}
+
+.text-heading-5 {
+  font-size: 20px;
+  line-height: 120%;
+  line-spacing: 0.25;
+}
+
+.text-subtitle-1,
+.text-subtitle-2 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  line-spacing: 0;
+  line-height: 160%;
+}
+
+.text-subtitle-1 {
+  font-size: 24px;
+}
+
+.text-subtitle-2 {
+  font-size: 20px;
+}
+
+.text-body-1,
+.text-body-2,
+.text-body-3,
+.text-caption-1,
+.text-caption-2,
+.text-caption-3 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  line-spacing: 0.25px;
+}
+
+.text-body-1 {
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.text-body-2 {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.text-body-3 {
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.text-caption-1 {
+  font-size: 14px;
+  line-height: 180%;
+}
+
+.text-caption-2 {
+  font-size: 14px;
+  line-height: 145%;
+}
+
+.text-caption-3 {
+  font-size: 12px;
+  line-height: 100%;
+}
+
+@media (max-width: 576px) {
+  .text-heading-1,
+  .text-heading-italic-1 {
+    font-size: 40px;
+    line-height: 130%;
+  }
+    
+  .text-heading-2 {
+    font-size: 24px;
+  }
+  
+  .text-heading-3 {
+    font-size: 20px;
+    line-height: 140%;
+  }
+  
+  .text-heading-4 {
+    font-size: 20px;
+  }
+
+  .text-heading-5 {
+    font-size: 16px;
+  }
+
+  .text-subtitle-1 {
+    font-size: 20px;
+  }
+  
+  .text-subtitle-2 {
+    font-size: 18px;
+  }
+
+  .text-body-1,
+  .text-body-2 {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  
+  .text-body-3 {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  
+  .text-caption-1 {
+    font-size: 12px;
+    line-height: 160%;
+  }
+  
+  .text-caption-2 {
+    font-size: 12px;
+  }
+}
+
+/* NAVBAR */
+a.nav-link:hover,
+a.pfi-nav-active {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: #239457 !important;
+}
+
+.navbar {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.16);
+}
+
+/* FOOTER */
+.footer-wrapper {
+  background: url("../assets/images/footer/bg-contact.png") no-repeat left top;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+ /* ARTICLE CARD*/
+ .pfi-overlay{
+  display: block;
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+} 

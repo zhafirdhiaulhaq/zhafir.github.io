@@ -1,0 +1,48 @@
+
+// Import our variable overrides.
+// Go here to set custom values for Bootstrap vars
+@import "./abstracts/variables";
+
+// Import Bootstrap functions, vars and mixins
+// @import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/variables-dark';
+
+
+
+// Import our map amends
+// Go here to run any Sass map amends on Bootstrap Sass maps
+@import "./abstracts/map-amends";
+@import "./abstracts/variables";
+
+
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+
+// Import our utility overrides
+// Go here to amend or set custom utilities using the Bootstrap API
+// @import './utilities/bootstrap-api-utilities';
+
+// Bootstrap main import
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root {
+  --bs-body-font-family: "DM Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "RoxBoroughBold";
+  src: url("../assets/fonts/RoxboroughCF-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RoxBoroughBoldItalic";
+  src: url("../assets/fonts/RoxboroughCF-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
