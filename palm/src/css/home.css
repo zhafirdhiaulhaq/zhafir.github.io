@@ -1,0 +1,43 @@
+
+/* ABOUT */
+#about {
+    z-index: -2;
+  }
+  
+  .img-back-logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .1;
+    width: 350px
+  }
+  
+  @media (max-width: 576px) {
+    .img-back-logo {
+      width: 200px
+    }
+  }
+  
+  /* VALUES */
+  .about-cards img {
+    width: 100px;
+  }
+  
+  .value-section::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 163px;
+    margin-top: -32px;
+    background-color: #175349;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .about-cards img {
+      width: 64px;
+    }
+  }
+  

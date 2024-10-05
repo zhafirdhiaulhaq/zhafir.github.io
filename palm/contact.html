@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Palm From Indonesia | Indonesian Agri-Product Supplier</title>
+  <link rel="icon" type="image/x-icon" href="src/assets/images/logo/fav_logo.jpg">
+  <link rel="stylesheet" href="src/css/main.min.css" />
+  <link rel="stylesheet" href="src/css/custom.css" />
+  <style>
+     .contact-overlay{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+      } 
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="src/assets/images/logo/navbar_logo.png" height="32px" alt="main-logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-lg-center">
+          <li class="nav-item">
+            <a class="nav-link text-neutral-900" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-neutral-900 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Product
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="coconut-derivative.html">Coconut Derivative</a></li>
+              <li><a class="dropdown-item" href="organic-palm-sugar.html">Organic Palm Sugar</a></li>
+              <li><a class="dropdown-item" href="vanilla-beans.html">Vanilla Beans</a></li>
+              <li><a class="dropdown-item" href="indonesian-spices.html">Indonesian Spices</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-neutral-900 pfi-nav-active" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <section>
+    <div class="position-relative bg-danger">
+      <img src="./src/assets/images/contact/contact_banner.jpg" class="w-100 d-none d-lg-block" alt="contact-banner">
+      <img src="./src/assets/images/contact/contact_banner_mobile.jpg" class="w-100 d-block d-lg-none" alt="contact-banner-mobile">
+      <div class="position-absolute bottom-0 w-100 h-100 d-flex justify-content-center align-items-center">
+        <div class="contact-overlay"></div>
+        <div class="text-heading-2 text-neutral-100 z-2 text-center">Contact</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- forms -->
+  <section class="mt-24 mt-lg-48">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="col-8 col-md-5 col-lg-10">
+            <img src="./src/assets/images/logo/contact_logo.png" class="w-100" alt="contact-logo">
+          </div>
+          <div class="col-9 col-md-12 mt-8 mt-lg-24">
+            <div class="text-subtitle-2 text-neutral-900 fw-bold">PT. Dua Zamrud Khatulistiwa</div>
+            <div class="mt-8 mt-lg-16 text-body-2 text-neutral-700">
+              <div>Jalan Zaitun 1 Blok B4 No.1, Islamic Village, Kab. Tangerang, Banten, 15811, Indonesia</div>
+              <div class="mt-1 mt-lg-8">sales@palmfromindonesia.com</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-8 mt-32 mt-lg-0">
+          <div class="text-body-2 text-neutral-900">If you have any questions or requests, please don’t hesitate to contact us. Fill out the form below, email us or give us a call. We’ll get back to you as soon as we can. Thank you!</div>
+
+          <form action="https://formsubmit.co/sales@palmfromindonesia.com" method="POST" class="row g-3 mt-24 mt-lg-32">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+
+            <div class="col-md-6">
+              <label for="first_name" class="form-label">First Name</label>
+              <input type="text" name="First Name" class="form-control" id="first_name" placeholder="first name">
+            </div>
+            <div class="col-md-6">
+              <label for="last_name" class="form-label">Last Name</label>
+              <input type="text" name="Last Name" class="form-control" id="last_name" placeholder="last name">
+            </div>
+            <div class="col-md-6">
+              <label for="company_name" class="form-label">Company Name</label>
+              <input type="text" name="Company Name" class="form-control" id="company_name" placeholder="company name">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" name="Email" class="form-control" id="email" placeholder="email">
+            </div>
+            <div class="col-12">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="text" name="Phone" class="form-control" id="phone" placeholder="phone">
+            </div>
+            <div class="col-12">
+              <label for="address_form" class="form-label">Address</label>
+              <textarea name="Address" class="form-control" id="address_form" rows="3" placeholder="address"></textarea>
+            </div>
+            <div class="col-12">
+              <label for="message_form" class="form-label">Message or Request</label>
+              <textarea name="Message or Request" class="form-control" id="message_form" rows="3"></textarea>
+            </div>
+            <div class="col-md-3">
+              <button type="submit" class="btn btn-teal-500 w-100 fw-semibold">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section id="footer" class="mt-64 mt-lg-120 text-neutral-100">
+    <div class="footer-wrapper">
+      <div class="container py-32">
+        <div class="fw-bold text-subtitle-1">Get in touch</div>
+        <div class="mt-8 mt-lg-16 text-body-3">
+          <div class="fw-bold">PT. Dua Zamrud Khatulistiwa</div>
+          <div class="fw-normal">Jalan Zaitun 1 Blok B4 No.1, Islamic Village, Kab. Tangerang, Banten, 15811, Indonesia</div>
+        </div>
+        <div class="mt-8 text-body-3">
+          <div class="d-flex align-items-center gap-3">
+            <img src="src/assets/icons/footer/mail.svg" alt="mail-icon" width="24px">
+            <a href="mailto:sales@palmfromindonesia.com" class="text-decoration-none text-neutral-100">
+              sales@palmfromindonesia.com
+            </a>
+          </div>
+          <div class="d-flex align-items-start gap-3 mt-8">
+            <img src="src/assets/icons/footer/phone.svg" alt="phone-icon" width="24px">
+            <div class="d-flex gap-2">
+              <div>
+                <a href="tel:+6281281748771" class="text-decoration-none text-neutral-100">+62 81281748771</a>
+              </div>
+              <div>;</div>
+              <div>
+                <a href="tel:+6281222398874" class="text-decoration-none text-neutral-100">+62 81222398874</a>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-wrap flex-column flex-lg-row gap-3 mt-16">
+            <div class="">
+              <a href="https://www.instagram.com/palmfromindonesia?igsh=MW9kNzg0NzV2MGthNA%3D%3D" target="_blank" class="text-neutral-100 text-decoration-none d-flex gap-2 align-items-center">
+                <img src="src/assets/icons/footer/instagram.svg" alt="instagram-icon">
+                palmfromindonesia
+              </a>
+            </div>
+            <div class="">
+              <a href="https://www.linkedin.com/company/pt-dua-zamrud-khatulistiwa/" target="_blank" class="text-neutral-100 text-decoration-none d-flex gap-2 align-items-center">
+                <img src="src/assets/icons/footer/linkedin.svg" alt="linkedin-icon">
+                PT. Dua Zamrud Khatulistiwa
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-teal-500 py-10 d-flex justify-content-center">
+      <div class="text-caption-2 text-center">© 2024 PT. Dua Zamrud Khatulistiwa All rights reserved.</div>
+    </div>
+  </section>
+
+  <script src="src/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
